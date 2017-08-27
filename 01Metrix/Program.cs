@@ -4,17 +4,23 @@ namespace _01Matrix
 {
     class Program
     {
-        static int NUMBER = 15;
+        static int NUMBER = 3;
         static void Main(string[] args)
         {
             Console.WriteLine("input is:");
-            var matrix = Generatematrix(NUMBER);
+            //var matrix = Generatematrix(NUMBER);
+            var matrix = new int[,]
+                {
+                    { 0, 0, 0 },
+                    { 0, 1, 0 },
+                    { 0, 0, 0 }
+                };
 
             Console.WriteLine();
 
             var solution = new Solution();
             var updateMatrix = solution.UpdateMatrix(matrix);
-            
+
             Console.WriteLine("output is");
 
             for (int i = 0; i < NUMBER; i++)
@@ -26,7 +32,7 @@ namespace _01Matrix
 
                 Console.WriteLine();
             }
-            
+
         }
 
         private static int[,] Generatematrix(int number)

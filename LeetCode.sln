@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Matrix", "01Metrix\01Matrix.csproj", "{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{2010C661-BD36-4807-AA64-B4BF765450B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2010C661-BD36-4807-AA64-B4BF765450B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2010C661-BD36-4807-AA64-B4BF765450B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2010C661-BD36-4807-AA64-B4BF765450B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2010C661-BD36-4807-AA64-B4BF765450B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
