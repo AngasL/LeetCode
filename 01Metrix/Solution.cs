@@ -16,8 +16,6 @@ namespace _01Matrix
             {
                 for (int j = 0; j < number; j++)
                 {
-                    Console.WriteLine(i);
-                    Console.WriteLine(j);
                     if (matrix[i, j] != 0)
                     {
                         matrix[i, j] = GetDistence(matrix, i, j);
