@@ -4,19 +4,12 @@ namespace _01Matrix
 {
     class Program
     {
-        static int NUMBER = 3;
+        static int NUMBER = 10;
+
         static void Main(string[] args)
         {
             Console.WriteLine("input is:");
-            //var matrix = Generatematrix(NUMBER);
-            var matrix = new int[,]
-                {
-                    { 0, 0, 0 },
-                    { 0, 1, 0 },
-                    { 0, 0, 0 }
-                };
-
-            Console.WriteLine();
+            var matrix = GenerateTestMatrix(NUMBER);
 
             var solution = new Solution();
             var updateMatrix = solution.UpdateMatrix(matrix);
@@ -35,7 +28,7 @@ namespace _01Matrix
 
         }
 
-        private static int[,] Generatematrix(int number)
+        private static int[,] GenerateTestMatrix(int number)
         {
             var matrix = new int[number, number];
             var radom = new Random();
