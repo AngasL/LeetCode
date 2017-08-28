@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Matrix", "01Metrix\01Matr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{2010C661-BD36-4807-AA64-B4BF765450B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2010C661-BD36-4807-AA64-B4BF765450B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2010C661-BD36-4807-AA64-B4BF765450B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2010C661-BD36-4807-AA64-B4BF765450B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
