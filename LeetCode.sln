@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
