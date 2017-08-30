@@ -12,7 +12,7 @@ namespace LongestSubstringWithoutRepeatingCharacters
     {
         static void Main(string[] args)
         {
-            var source = "adafbedbppwfpw";
+            var source = "pwwkew";
 
             var solution = new Solution();
 
