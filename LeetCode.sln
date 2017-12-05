@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Matrix", "01Metrix\01Matrix.csproj", "{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "542-01Matrix", "01Metrix\542-01Matrix.csproj", "{4E8FA199-65BB-4116-BA7E-5E981AB2BE97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{2010C661-BD36-4807-AA64-B4BF765450B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-TwoSum", "TwoSum\01-TwoSum.csproj", "{2010C661-BD36-4807-AA64-B4BF765450B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-AddTwoNumbers", "AddTwoNumbers\02-AddTwoNumbers.csproj", "{00BAA839-6EE7-4FA7-894C-5EF8D364AED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\03-LongestSubstringWithoutRepeatingCharacters.csproj", "{2C3CF7D6-5DA9-46B1-8C2A-8AB5F55FC640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMedianSortedArrays", "FindMedianSortedArrays\FindMedianSortedArrays.csproj", "{46007237-2DDA-4E1E-9126-B89CB8375EBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-FindMedianSortedArrays", "FindMedianSortedArrays\04-FindMedianSortedArrays.csproj", "{46007237-2DDA-4E1E-9126-B89CB8375EBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +42,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75FD6AEB-9675-453F-897C-658FB4098617}
 	EndGlobalSection
 EndGlobal
