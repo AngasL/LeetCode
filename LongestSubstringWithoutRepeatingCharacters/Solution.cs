@@ -19,32 +19,35 @@ namespace LongestSubstringWithoutRepeatingCharacters
 
             var result = 0;
             var array = s.ToCharArray();
-            var flag = 1;
-            var charList = new List<char>();
+            var flag = 0;
+            var dic = new Dictionary<char, int>();
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length;)
             {
-                if (i == 0)
+                var flagIsUpdated = false;
+                for (int j = i; j < array.Length; j++)
                 {
-                    charList.Add(array[i]);
-                }
-
-                for (int j = flag; j < array.Length; j++)
-                {
-                    if (!charList.Contains(array[j]))
+                    if (!dic.ContainsKey(array[j]))
                     {
-                        charList.Add(array[j]);
+                        dic.Add(array[j], j);
                     }
                     else
                     {
-                        flag = j;
+                        flag = dic[array[j]];
+                        flagIsUpdated = true;
                         break;
                     }
                 }
 
-                result = result > charList.Count() ? result : charList.Count();
+                result = result > dic.Count() ? result : dic.Count();
 
-                charList.Remove(array[i]);
+                dic.Clear();
+                if (!flagIsUpdated)
+                {
+                    break;
+                }
+
+                i = flag + 1;
             }
 
             return result;
