@@ -14,7 +14,7 @@ namespace TwoSum
 
             var solution = new Solution();
 
-            var result = solution.TwoSum(array, 6);
+            var result = solution.TwoSum_BruteForce(array, 6);
 
             Console.ReadKey();
         }
