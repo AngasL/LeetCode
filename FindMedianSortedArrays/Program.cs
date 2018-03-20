@@ -10,12 +10,12 @@ namespace FindMedianSortedArrays
     {
         static void Main(string[] args)
         {
-            var nums1 = new int[] { };
-            var nums2 = new int[] { 2,3 };
+            var nums1 = new int[] { 1, 3 };
+            var nums2 = new int[] { 2 };
 
             var solution = new Solution();
 
-            Console.WriteLine(solution.FindMedianSortedArrays(nums1, nums2));
+            Console.WriteLine(solution.FindMedianSortedArrays_v2(nums1, nums2));
 
             Console.ReadKey();
         }
